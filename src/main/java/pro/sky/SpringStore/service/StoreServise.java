@@ -13,7 +13,7 @@ public class StoreServise {
         this.cart = cart;
     }
 
-    private void addAll(List<Integer> values) {
+    public void addAll(List<Integer> values) {
 
         cart.addAll(values);
     }

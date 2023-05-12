@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.ArrayList;
 @Component
 @SessionScope //пока не разорвано соединение с браузером ,он этот объект будет сохранять, для каждой сессии своя тележка
-@Scope("prototype") // одна тележка для всех сесии
+//@Scope("prototype") // одна тележка для всех сесии
 public class Cart {
     private List<Integer> cart = new ArrayList<>();
     public void addAll(List<Integer> values) {
